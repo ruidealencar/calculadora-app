@@ -1,0 +1,13 @@
+<html>
+	<body>
+		<section id="segura-items">
+			<h3>Calcudadora</h3>
+			<%= number_field_tag :primeiro_numero, nil, placeholder: 'Digite um número' %> 
+			<%= select_tag :operacao, options_for_select(['+', '-', '*', '/']), { prompt: ' ' } %> 
+			<%= number_field_tag :segundo_numero, nil, placeholder: 'Digite um número' %><br>
+			<%= submit_tag 'Calcular', id: 'btn-calc' %>
+			<br>
+			<div id="resultado" />
+		</section>	
+	</body>
+</html>

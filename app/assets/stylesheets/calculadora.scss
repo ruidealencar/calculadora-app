@@ -1,0 +1,124 @@
+
+body{
+
+	background-color: #23a378;
+
+}
+
+
+	section#segura-items {
+
+		margin: 8% auto;
+
+		display: block;
+
+		position: relative;
+
+		background: #000;
+
+		padding: 10px;
+
+		border-radius: 10px;
+
+		box-shadow: 20px 6px 29px rgba(0, 0, 0, 0.2);
+
+		width: 500px;
+
+
+	}
+
+
+
+	h3 {
+
+		color: #FFF;
+
+		font-size: 195%;
+
+		text-align: center;
+
+		margin-top: 15px;
+
+	} 
+
+
+input[type="number"]{
+
+		border-radius:10px;
+
+		border: 1px solid #cacaca;
+
+		display: block;
+
+		margin: auto;
+
+		padding: 12px;
+
+		margin-top: 12px;
+
+		width: 30%;
+
+}
+
+	input[type="text"],
+
+	select{
+
+	border-radius:10px;
+
+	border: 1px solid #cacaca;
+
+	display: block;
+
+	margin: auto;
+
+	padding: 12px;
+
+	margin-top: 12px;
+
+	width: 15%;
+
+	}
+
+
+
+	input[type="submit"]{
+
+	display:block;
+
+	margin: 11px auto;
+
+	background:#23a378;
+
+	color:#FFF;
+
+	text-transform:uppercase;
+
+	width: 80%;
+
+	border: 0px;
+
+	padding: 12px;
+
+	border-radius: 5px;
+
+	font-size: 117%;
+
+	font-weight: bold;
+
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.78);
+
+	
+    
+
+	}
+
+
+
+	input[type="submit"]:hover{
+
+	background: #a92b00;
+
+	text-shadow: none;
+
+	}
